@@ -1,6 +1,6 @@
 This repository contains statistical regression utilities written in C++ in Visual Studio 2019.  The utilities include standard least-squares linear, quadratic, cubic, and elliptical regression.  In addition to standard least squares regression, they contain "consensus regression" that automatically detects outliers in a dataset, removes them from the inliers, and updates the least-squares regression model quickly.
 
-The image below is an example of linear regression and linear regression consensus.  The red line is a linear regression on all blue data points.  The consensus algorithm identifies outliers (red) and then adjusts the regression model accordingly.
+The image below is an example of linear regression and linear regression consensus.  The red line is a standard least squares linear regression on all blue data points.  The consensus algorithm identifies outliers (red) and then adjusts the regression model accordingly.
 
 ![image](https://user-images.githubusercontent.com/79757625/117740886-5fe32380-b1cf-11eb-8076-8a2fe13c46f1.png)
 
