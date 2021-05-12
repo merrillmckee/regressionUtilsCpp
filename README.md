@@ -44,13 +44,13 @@ On the algorithm.  The algorithm takes some inspiration from RANSAC but where RA
 
 For display, matplotlib-cpp (matplotlib for C++) was used.
 
-A tree hierarchy of the classes
-- RegressionModel
--- PolynomialModel
---- LinearModel
---- QuadraticModel
---- CubicModel
--- EllipticalModel
+A tree hierarchy of the classes  
+- RegressionModel  
+-- PolynomialModel  
+--- LinearModel  
+--- QuadraticModel  
+--- CubicModel  
+-- EllipticalModel  
 
 There is a parallel C# implementation of these utilities at https://github.com/merrillmckee/regressionUtilsCSharp
 
